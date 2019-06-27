@@ -1,0 +1,9 @@
+## Interface: 80200
+## Title: |cffEEE4AEDromadaire Mystérieuse|r
+## Notes: |cff58C6FAUne pizza dromadaire.|r
+## Author: Lumiahna
+## Version: 1.0
+## SavedVariables: DromadaireMysterieuseDB
+
+dromadairemysterieuse.lua
+GPS.lua
