@@ -56,13 +56,13 @@ local Waypoints = {
 
 function DM:Waypoints()
     local currentUIMapID = C_Map.GetBestMapForUnit("player")
-    local mapInfo = C_Map.GetMapInfo(CS.Uldum)
+    local mapInfo = C_Map.GetMapInfo(DM.Uldum)
     if TomTom then
         for _,v in next, Waypoints do
-            TomTom:AddWaypoint(CS.Uldum, v.x/100, v.y/100, { title = "|cffFFDD00Figurine Dromadaire Mysterieuse|r\n|cffEEE4AEDromadaire Mysterieuse|r", })
+            TomTom:AddWaypoint(DM.Uldum, v.x/100, v.y/100, { title = "|cffFFDD00Figurine Dromadaire Mysterieuse|r\n|cffEEE4AEDromadaire Mysterieuse|r", })
         end
         print("|cffEEE4AEDromadaire Mysterieuse:|r points gps ajoutes sur "..mapInfo.name..".")
-        if currentUIMapID == CS.Uldum then
+        if currentUIMapID == DM.Uldum then
             TomTom:SetClosestWaypoint()
         end
     else
