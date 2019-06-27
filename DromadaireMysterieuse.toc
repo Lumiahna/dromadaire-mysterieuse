@@ -5,5 +5,5 @@
 ## Version: 1.0
 ## SavedVariables: DromadaireMysterieuseDB
 
-dromadairemysterieuse.lua
+DromadaireMysterieuse.lua
 GPS.lua
